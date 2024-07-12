@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Idioma-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titulo y favicon de la pagina-->
+    <title>Rincon del Cuervo - JE</title>
+    <link rel="shortcut icon" href="image/removeColor.png" type="image/x-icon">
+
+    <!--Links de estilos compilados de sass a css-->
+    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container__masterTodo" id="levelUp">
+        <div class="MaxContainer">
+            <!-- header -->
+            <header class="header header__primary">
+                <a href="#levelUp" class="name"
+                    style="display: flex;  justify-content: center; align-items: center; gap: 10px;"><img
+                        src="image/removeColor.png" alt="" width="30px"> Paleta de<span> Colores</span></a>
+                <input type="checkbox" id="check">
+                <label for="check" class="menu">
+                    <i class="fa-solid fa-bars" id="icon-menu"></i>
+                    <i class="fa-solid fa-xmark" id="close-menu"></i>
+                </label>
+                <nav class="navbar">
+                    <a href="#Monocromaticos">Monocromaticos</a>
+                    <a href="#DarckLight">Darck - Light</a>
+                </nav>
+            </header>
+
+            <main class="main main__primary">
+                <section class="one__sectionClass">
+                    <div class="container_sectionClassOne">
+                        <div class="tittle">
+                            <h2>Explora el <strong>Mundo</strong> del color</h2>
+                            <p>Genera y utiliza los mejores colores para tu pagina</p>
+                            <a href="#Monocromaticos"><button>Generar colores</button></a>
+                        </div>
+                        <div class="ContainerImage">
+                            <div class="image"></div>
+                            <div class="color22">
+                                <div class="color-containers color-1"></div>
+                                <div class="color-containers color-2"></div>
+                                <div class="color-containers color-3"></div>
+                                <div class="color-containers color-4"></div>
+                                <div class="color-containers color-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div id="Monocromaticos"></div>
+                <br>
+                <!--==========   Colores Monocromaticos    =========-->
+                <section class="two__sectionClass">
+                    <div class="container_sectionClassTwo">
+                        <div class="container__tittlePopular">
+                            <h3>Monocromaticos</h3>
+                        </div>
+                        <div class="container__ColorPalets">
+                            <div id="palette-wrapper" class="container_flujo">
+
+                            </div>
+                        </div>
+                        <button id="generate-button2" class="style__buttom"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="26" height="26" fill="currentColor" class="bi bi-arrow-repeat"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
+                                <path fill-rule="evenodd"
+                                    d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
+                            </svg>
+                        </button>
+                        <div id="alert-container" class="alert_class" style="display: none;">
+                            <span id="alert-text"></span>
+                            <span id="alert-color"></span>
+                        </div>
+
+                    </div>
+                </section>
+                <div id="DarckLight"></div>
+                <!--==========   Darck - Light    =========-->
+                <section class="three__sectionClass">
+                    <div class="container_sectionClassThree">
+                        <div class="container__tittlePopular">
+                            <h3><span>Darck</span> - Light<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                    fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                </svg></h3>
+                        </div>
+                        <div class="Pront_manual">
+                            <h3>No empieces sin una guía de estilos</h3>
+                            <p>Usualmente antes de crear un tema oscuro se suele diseñar primero la versión
+                                <strong>clara/light</strong>,
+                                para esto se hace uso de la guía de estilos. Por si no estás familiarizado con este
+                                concepto, una guía de estilos es un manual con los criterios y normas necesarias para
+                                desarrollar la parte gráfica de un producto digital de alguna marca con el fin de
+                                conseguir una interfaz <strong>homogénea</strong> y <strong>coherente</strong>.
+                            </p>
+                        </div>
+                        <div class="tittle__darckMode">
+                            <h2>Tema - Dark</h2>
+                        </div>
+                        <div class="teme_darck">
+                            <div class="container__igualitPass Principal">
+                                <h4>Principal</h4>
+                                <p>#52A5E0</p>
+                                <div class="color color-Principal"></div>
+                            </div>
+                            <div class="container__igualitPass titulo">
+                                <h4>Título</h4>
+                                <p>#EFF3F5</p>
+                                <div class="color color-Título"></div>
+                            </div>
+                            <div class="container__igualitPass contenido">
+                                <h4>Contenido</h4>
+                                <p>#C8CDD0</p>
+                                <div class="color color-Contenido"></div>
+                            </div>
+                            <div class="container__igualitPass claro">
+                                <h4>Claro</h4>
+                                <p>#A0A7AC</p>
+                                <div class="color color-Claro"></div>
+                            </div>
+                            <div class="container__igualitPass border">
+                                <h4>Border</h4>
+                                <p>#2A3B47</p>
+                                <div class="color color-Border"></div>
+                            </div>
+                            <div class="container__igualitPass contenedor">
+                                <h4>Contenedor</h4>
+                                <p>#212E36</p>
+                                <div class="color color-Contenedor"></div>
+                            </div>
+                            <div class="container__igualitPass body">
+                                <h4>Body</h4>
+                                <p>#192229</p>
+                                <div class="color color-Body"></div>
+                            </div>
+                        </div>
+                        <div class="tittle__light">
+                            <h2>Tema - Light</h2>
+                        </div>
+                        <div class="teme_light">
+                            <div class="container__igualitPass Principal">
+                                <h4>Principal</h4>
+                                <p>#1083D6</p>
+                                <div class="color color-Principal"></div>
+                            </div>
+                            <div class="container__igualitPass titulo">
+                                <h4>Título</h4>
+                                <p>#2A3B47</p>
+                                <div class="color color-Título"></div>
+                            </div>
+                            <div class="container__igualitPass contenido">
+                                <h4>Contenido</h4>
+                                <p>#697477</p>
+                                <div class="color color-Contenido"></div>
+                            </div>
+                            <div class="container__igualitPass claro">
+                                <h4>Claro</h4>
+                                <p>#A0A7AC</p>
+                                <div class="color color-Claro"></div>
+                            </div>
+                            <div class="container__igualitPass border">
+                                <h4>Border</h4>
+                                <p>#EFF3F5</p>
+                                <div class="color color-Border"></div>
+                            </div>
+                            <div class="container__igualitPass contenedor">
+                                <h4>Contenedor</h4>
+                                <p>#FFFFFF</p>
+                                <div class="color color-Contenedor"></div>
+                            </div>
+                            <div class="container__igualitPass body">
+                                <h4>Body</h4>
+                                <p>#FBFBFE</p>
+                                <div class="color color-Body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="four__sectionClass">
+                    <div class="container__Exploring">
+                        <h3>Explorando los Beneficios de los Modos <br> de Tema en <span>Diseño Web</span></h3>
+                        <p>
+                            El modo oscuro y claro en el diseño web ofrecen beneficios únicos. <br><br>
+                            El modo oscuro es ideal para reducir la fatiga visual y el consumo de energía endispositivos
+                            con pantallas <strong>OLED</strong>,
+                            ofreciendo una estética moderna y un enfoque mejorado en elementos de diseño.<br> Por otro
+                            lado,
+                            el modo claro mejora la <strong>legibilidad </strong>en ambientes bien iluminados, <br>
+                            proporciona una apariencia más familiar y versátil para una amplia gama de colores y
+                            detalles. <br><br><br>
+                            La elección entre ambos modos depende de las preferencias del usuario y el contexto
+                            específico de uso.
+                        </p>
+                    </div>
+                    <div class="container__codeDarckLight">
+                        <div>
+                            <p>1</p>
+                            <p>2</p>
+                            <p>3</p>
+                            <p>4</p>
+                            <p>5</p>
+                            <p>6</p>
+                            <p>7</p>
+                            <p>8</p>
+                            <p>9</p>
+                            <p>10</p>
+                            <p>11</p>
+                            <p>12</p>
+                            <p>13</p>
+                            <p>14</p>
+                            <p>15</p>
+                            <p>16</p>
+                            <p>17</p>
+                            <p>18</p>
+                            <p>19</p>
+                        </div>
+                        <div class="container__clo">
+                            <div>
+                                <code>
+                                    <p>// Variables del tema light</p>
+                                    <h4>:root {<br></h4>
+                                    <span>--main-color: #1083D6;<br></span>
+                                    <span>--title-color: #2A3B47;<br></span>
+                                    <span>--text-color: #697477;<br></span>
+                                    <span>--light-text-color: #A0A7AC;<br></span>
+                                    <span>--border-color: #EFF3F5;<br></span>
+                                    <span>--container-color: #FFFFFF;<br></span> 
+                                    <span>--body-color: #FBFBFE;<br></span> 
+                                </code>
+                            </div>
+                            <div>
+                                <code>
+                                    <br>
+                                    <p>// Variables del tema darck</p>
+                                    <span></span>--main-color: #52A5E0;<br>
+                                    <span></span>--title-color: #EFF3F5;<br>
+                                    <span></span>--text-color: #C8CDD0;<br>
+                                    <span></span>--light-text-color: #A0A7AC;<br>
+                                    <span></span>--border-color: #2A3B47;<br>
+                                    <span></span>--container-color: #212E36;<br>
+                                    <span></span>--body-color: #192229;<br>
+                                    <h4>}</h4> 
+                                </code>
+                            </div>
+                            <button onclick="copyAllVariables()" class="button__copyRoot"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                                    class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                    <path
+                                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                    <path
+                                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                </svg></button>
+
+                            <div id="custom-alert" style="display:none;">
+                                <span id="custom-alert-message"></span>
+                                <span id="alert-color" class="ctr22"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="light-theme-variables" style="display: none;">
+                        :root {
+                        --main-color: #1083D6;
+                        --title-color: #2A3B47;
+                        --text-color: #697477;
+                        --light-text-color: #A0A7AC;
+                        --border-color: #EFF3F5;
+                        --container-color: #FFFFFF;
+                        --body-color: #FBFBFE;
+                    </div>
+                    <div id="dark-theme-variables" style="display: none;">
+                        --main-color: #52A5E0;
+                        --title-color: #EFF3F5;
+                        --text-color: #C8CDD0;
+                        --light-text-color: #A0A7AC;
+                        --border-color: #2A3B47;
+                        --container-color: #212E36;
+                        --body-color: #192229;
+                        }
+                    </div>
+                </section>
+                <section class="five_sectionClass">
+                    <div class="container_sectionClassFive">
+                        <div class="tittleFive">
+                            <h3>Cómo elegir una paleta de colores para mi marca</h3>
+                        </div>
+                        <div class="container__marca">
+                            <div>
+                                <div class="tiitle__ocean">
+                                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                            fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                                            <path
+                                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
+                                        </svg>Ocean</h3>
+                                </div>
+                                <div class="container__wrapWrap">
+                                    <div class="container__ocean">
+                                        <div class="containers__ocean">
+                                            <div class="color_ocean1 cont__oceanDupe"></div>
+                                            <div class="color_copy color_copy1"></div>
+                                            <h3>#254B5E</h3>
+                                            <p>rgb(37, 76, 95)</p>
+                                        </div>
+                                        <div class="containers__ocean">
+                                            <div class="color_ocean2 cont__oceanDupe"></div>
+                                            <div class="color_copy color_copy2"></div>
+                                            <h3>#546EAB</h3>
+                                            <p>rgb(84, 110, 171)</p>
+                                        </div>
+                                        <div class="containers__ocean">
+                                            <div class="color_ocean3 cont__oceanDupe"></div>
+                                            <div class="color_copy color_copy3"></div>
+                                            <h3>#4697B4</h3>
+                                            <p>rgb(70, 151, 180)</p>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="parrafo">
+                                        <p><span class="srt1">Cada </span><strong>color</strong> es único y tiene el
+                                            poder de despertar sensaciones y transmitir ideas y
+                                            valores. <br><br> Por ello, la paleta de colores que elijas debe acompañar
+                                            los <span class="srt2">valores y
+                                                propósitos</span> de tu marca, es decir, debe potenciar el mensaje que
+                                            deseas transmitir
+                                            con tu emprendimiento. <br><br>
+                                            Por ejemplo, si tu tienda vende <strong>productos naturales</strong>, usar
+                                            colores suaves como tonos
+                                            verdes puede ser una buena opción, ya que transmiten la idea de <span
+                                                class="srt3">naturaleza y
+                                                tranquilidad.
+                                            </span>
+                                        </p>
+                                        <a href="#Monocromaticos"><button>Generar colores</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="six__containerClass">
+                    <div class="container__sumary">
+                        <details>
+                            <summary>¿Como utilizar este generador de colores?<svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor" class="bi bi-chevron-down"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></summary>
+                            <p>¡Es muy sencillo! Puedes utilizar algunas de las paletas de colores más populares,
+                                trabajar con alguna gama de colores monocromática o cargar una imagen de la que desees
+                                obtener su paleta de colores. Es posible descargar las paletas, generar el código CSS o
+                                utilizarlas en tu tienda en línea dando clic en aquella que te interese. ¡Juega con la
+                                rueda de colores tanto como desees!</p>
+                        </details>
+                        <details>
+                            <summary>¿Que es una paleta de colores?<svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                    height="20" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></summary>
+                            <p>Una paleta de colores es un conjunto de colores que, combinados armoniosamente, expresan
+                                una idea, sentimiento o valor. Se utilizan en la creación de logos, identidad visual,
+                                comunicación para redes sociales y mucho más.</p>
+                        </details>
+                        <details>
+                            <summary>¿Cómo los Colores Influyen en Nuestro Humor y Decisiones?<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></summary>
+                            <p>Sumérgete en el fascinante mundo de la psicología del color y cómo diferentes tonos
+                                pueden afectar nuestras emociones y comportamientos. Este artículo ofrece una mirada
+                                profunda a la manera en que los colores pueden influir en nuestra vida cotidiana y
+                                decisiones.</p>
+                        </details>
+                        <details open>
+                            <summary>¿Descubre la Armonía de Colores en el Diseño Web?<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></summary>
+                            <p>Imagina una <strong>página web</strong> que sirve como una guía interactiva y educativa
+                                sobre cómo seleccionar y combinar colores para crear diseños web visualmente
+                                <strong>atractivos y armoniosos</strong>. <br><br> El fondo de la página presenta un
+                                degradado suave que cambia dinámicamente para reflejar las combinaciones de colores
+                                discutidas. <br><br> En la cabecera, un título elegante y moderno, "<strong>El Arte de
+                                    la Paleta Cromática</strong>", invita a los usuarios a explorar el fascinante mundo
+                                del color. <br><br>
+                                A medida que te desplazas, encuentras secciones claramente definidas con fondos de
+                                colores complementarios, cada una destacando un aspecto diferente de la teoría del
+                                color. Hay gráficos interactivos y ejemplos visuales que demuestran los principios de la
+                                armonía cromática, la psicología del color y su impacto en el diseño de interfaces de
+                                usuario.
+                                Un menú de navegación intuitivo en la parte superior permite a los usuarios saltar
+                                fácilmente a temas específicos, como "Combinaciones de Colores", "<strong> Contraste y
+                                    Legibilidad</strong>", y "Tendencias de Color en el Diseño Web". <br> Además, un
+                                chatbot interactivo en la esquina inferior ofrece ayuda y consejos personalizados sobre
+                                la selección de colores.
+                                En la sección de "Herramientas y Recursos", se proporcionan enlaces a generadores de
+                                paletas de colores y bibliotecas de colores, junto con tutoriales en video y artículos
+                                de blog que profundizan en técnicas avanzadas de diseño. La página culmina con una
+                                galería de diseños de sitios web reales, mostrando cómo los profesionales han aplicado
+                                con éxito estas teorías de color en sus trabajos. <br>
+                                Todo el sitio web está diseñado para ser una experiencia inmersiva y educativa,
+                                convirtiéndolo en un recurso valioso tanto para <strong>diseñadores</strong> novatos
+                                como <strong>experimentados</strong> que buscan mejorar su uso del color en el diseño
+                                web.
+                            </p>
+                        </details>
+                    </div>
+                </section>
+                <section class="five__containerClass"></section>
+                <button id="generate-button" style="display: none;">Aplicar Monocromático</button>
+                <button id="generate-button2" style="display: none;">Cambiar Monocromático</button>
+            </main>
+
+            <!--======================================================================================-->
+            <footer class="footer__primary">
+                <a href="#levelUp">
+                    <div class="levelUpNext"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                        </svg>
+                    </div>
+                </a>
+                <div>
+                    <div class="container__iconsBost">
+
+                        <a href="https://github.com/Juanes200122" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.facebook.com/juanesteban.arevalo.75?mibextid=9R9pXO" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://codepen.io/Juan-Estaban-Ar-valo" target="_blank">
+                            <svg style="width: 25px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#ffffff"
+                                    d="M502.3 159.7l-234-156c-8-4.9-16.5-5-24.6 0l-234 156C3.7 163.7 0 170.8 0 178v156c0 7.1 3.7 14.3 9.7 18.3l234 156c8 4.9 16.5 5 24.6 0l234-156c6-4 9.7-11.1 9.7-18.3V178c0-7.1-3.7-14.3-9.7-18.3zM278 63.1l172.3 114.9-76.9 51.4L278 165.7V63.1zm-44 0v102.6l-95.4 63.7-76.9-51.4L234 63.1zM44 219.1l55.1 36.9L44 292.8v-73.7zm190 229.7L61.7 334l76.9-51.4L234 346.3v102.6zm22-140.9l-77.7-52 77.7-52 77.7 52-77.7 52zm22 140.9V346.3l95.4-63.7 76.9 51.4L278 448.8zm190-156l-55.1-36.9L468 219.1v73.7z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="param22">
+                        Created by
+                        <span>
+                            Juan Esteban Arevalo Contreras
+                        </span>
+                        Spectral
+                    </p>
+                    <div class="container__copyRi">
+                        <p>&copy; 2023 -- Spectral. Todos los derechos reservados.</p>
+                        <p class="str23">Política de privacidad <span>|</span> Términos y condiciones</p>
+                    </div>
+                </div>
+            </footer>
+            <!--======================================================================================-->
+        </div>
+    </div>
+    <script>
+        function selectColor(color) {
+            localStorage.setItem('selectedColor', color);
+            window.location.href = 'iframe/arrayColors.html';
+        }
+    </script>
+
+    <script src="assets/Js/Hoverme__details.js"></script>
+    <script>
+        function copyAllVariables() {
+            var lightVariablesText = document.getElementById('light-theme-variables').innerHTML;
+            var darkVariablesText = document.getElementById('dark-theme-variables').innerHTML;
+            var allVariables = lightVariablesText + darkVariablesText;
+            navigator.clipboard.writeText(allVariables).then(() => {
+                showCustomAlert('¡Copiado con exito!');
+            }).catch(err => {
+                console.error('Error al copiar las variables: ', err);
+            });
+        }
+
+        function showCustomAlert(message) {
+            var alertBox = document.getElementById('custom-alert');
+            var messageBox = document.getElementById('custom-alert-message');
+            messageBox.textContent = message;
+            alertBox.style.display = 'block';
+            // Ocultar después de 2 segundos
+            setTimeout(() => {
+                alertBox.style.display = 'none';
+            }, 2000);
+        }
+    </script>
+    <script src="assets/Js/addColorContainersMonochromatic.js"></script>
+    <script src="assets/Js/dropdown_menu.js"></script>
+</body>
+
+</html>
