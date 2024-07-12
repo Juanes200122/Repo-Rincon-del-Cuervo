@@ -1,6 +1,6 @@
 # Repo | Rincon-del-Cuervo ⭐⭐⭐⭐☆
 
-![Banner](cap-hover.PNG)
+![Banner](image/CAP/dash-paletcolors.PNG)
 <p align="center" style="color: white;">
     <img src="https://profile-counter.glitch.me/Juanes200122/count.svg" />
 </p>
@@ -15,12 +15,12 @@
     </a>
 </p>
 <p>
-    Se ha desarrollado una animación de tarjetas que se ilumina al hacer hover sobre ellas, utilizando JavaScript puro. Esta animación detecta la posición del cursor y aplica un efecto de iluminación gradual en el área debajo del mismo, creando una experiencia visual interactiva y dinámica.
+    Se ha creado una página para quienes buscan una paleta de colores monocromáticos para utilizar en sus sitios web. Esta página también proporciona información sobre cómo tener buenas combinaciones de colores mejora la experiencia del usuario, así como el diseño y la estructura de la página. Además, permite la implementación de nuevas mejoras gracias a su código abierto.
 </p>
 
 ```bash
-    git clone https://github.com/Juanes200122/Card-Hover.git
-    cd Card-Hover
+    git clone https://github.com/Juanes200122/Repo-Rincon-del-Cuervo.git
+    cd Repo-Rincon-del-Cuervo
 ```
 <div align="right">
     
@@ -28,3 +28,9 @@
 ![CodePen](https://img.shields.io/badge/-CodePen-000000?style=flat&logo=codepen)
 
 </div>
+
+<p>holaaaaaaaaaaaa</p>
+
+<p align="right" style="color: white;">
+    <img src="image/CAP/code-css.PNG" />
+</p>
