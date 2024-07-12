@@ -23,14 +23,9 @@
     cd Repo-Rincon-del-Cuervo
 ```
 <div align="right">
-    
+
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![CodePen](https://img.shields.io/badge/-CodePen-000000?style=flat&logo=codepen)
 
 </div>
 
-<p>holaaaaaaaaaaaa</p>
-
-<p align="right" style="color: white;">
-    <img src="image/CAP/code-css.PNG" />
-</p>
